@@ -1,9 +1,9 @@
 ---
-title: /
-layout: home
-permalink: /
+layout: default
 ---
 
-# Welcome
+## Welcome to another page
 
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+_yay_
+
+[back](./)
