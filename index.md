@@ -2,24 +2,22 @@
 layout: default
 ---
 
-Hi, I`m laercioskt and this is some notes.
-
-I`ll use this space to make some notes and practice english, so the majority of the content will be in english.
-
 ## About Me
 
-My name is Laércio Pereira, I`m a GO/Baduk/Weiqi player from Brazil, and sportsman who likes to skate and play soccer.
+My name is Laércio Pereira, a GO(Baduk/Weiqi) player from Brazil and sportsman who likes to skate and play soccer.
 
-I work as coordinator of development together with teams building software that lasts.
+I`m Systems Analyst working with software development more than 10 years and as Coordinator of Development since 2021.
 
-I really like to talk, even though a little shy, and usually I`m looking for things that could be done with family and friends.
+## Me playing GO against Me :P
+
+![Branching](../assets/images/meagainstme.jpeg)
 
 ## Blog
 
 | Title                                                                              | Date       | Category     | 
 |:-----------------------------------------------------------------------------------|:-----------|:-------------|
-| [Installing Ulaucher on Elementary OS](./content/ulauncher.html)                   | 24/03/2021 | Productivity |
-| [Review 1º match of 3º Torneio do Desassossego](./content/review-match-1.html)     | 24/03/2021 | Board Game   |
+| [Art 1](./content/ulauncher.html)                   | 24/03/2021 | Productivity |
+| [Art 2](./content/review-match-1.html)     | 24/03/2021 | Board Game   |
 
 ## Contact me
 
