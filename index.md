@@ -16,8 +16,7 @@ I`m Systems Analyst working with software development more than 10 years and as 
 
 | Title                                                                              | Date       | Category     | 
 |:-----------------------------------------------------------------------------------|:-----------|:-------------|
-| [Art 1](./content/ulauncher.html)                   | 24/03/2021 | Productivity |
-| [Art 2](./content/review-match-1.html)     | 24/03/2021 | Board Game   |
+| [Art 23º Torneio do Desassossego - Game 1](./content/review-match-1.html)          | 24/03/2021 | Board Game   |
 
 ## Contact me
 

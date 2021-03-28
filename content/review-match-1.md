@@ -2,124 +2,31 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# 3º Torneio do Desassossego - Game 1
 
-[Link to another page](./another-page.html).
+This was my first [game](https://online-go.com/game/32115944) of the 3º Torneio do Desassossego against João Ferreira ([Popz](https://www.twitch.tv/gopopz)).
 
-[Link to another-page.md](./another-page.md).
+This tournament is happening online during the pandemic, and the _Associação Portuguesa de Go_ ([APGO](http://www.go-portugal.org/)) invite the community to play together.
 
-There should be whitespace between paragraphs.
+The game was revised by Helcio Alexandre, a strong Brazilian player who won one of 2 matches in the _Pandanet Go Latin American Team Championship_ final against Argentina in 2020 ([publication](https://pandanet-igs.com/communities/latinamericanleague/488)).
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Review Variations
 
-# Header 1
+Review was made at the Discord and there is no comments to show, but you can see the variation below:
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<script type="text/javascript" src="/assets/js/javascripts/glift_1_1_2.min.js" ></script>
 
-## Header 2
+<div id="SGF" style="height: 500px; width: 100%"></div>
+<script>
+  glift.create({
+    divId: "SGF",
+    sgf: "/assets/sgf/laercioskt1kvsPopz2k.sgf",
+  });
+</script>
+<br>
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### B + R
 
-### Header 3
+Black wins by White Resignation
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+![Branching](../assets/images/ai-result.png)
