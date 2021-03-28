@@ -8,7 +8,7 @@ My name is Laércio Pereira, a GO(Baduk/Weiqi) player from Brazil and sportsman 
 
 I`m Systems Analyst working with software development more than 10 years and as Coordinator of Development since 2021.
 
-## Me playing GO against Me :P
+## Me playing GO against Me
 
 ![Branching](../assets/images/meagainstme.jpeg)
 
