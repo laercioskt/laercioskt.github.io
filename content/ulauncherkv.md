@@ -7,14 +7,14 @@ layout: default
 This is an article that shows a way of working productively on your desktop environment, describing some alternatives for each system operation but focused on Linux with [ULaucher](https://github.com/Ulauncher/Ulauncher) and the plugin [KV](https://github.com/laercioskt/ulauncher-kv).
 
 ## Problem
-Sometimes you need to do a simple operation like a multiplication of 2 numbers and you decide to open a calculator and, if you are like me - a person who resists using the mouse to do something - you try to configure a shortcut to open the calculator. But if you do that for all your apps or even for the main ones you probably will not have shortcuts enough in your keyboard, right?
+Sometimes you need to do a simple operation like a multiplication of 2 numbers and you decide to open a calculator and, if you are like me - a person who likes to use keyboard more than mouse - you try to configure a shortcut to open the calculator, but if you do that for all your apps or even just for the main ones you probably will not have shortcuts enough in your keyboard, right?
 
-But all systems operations come with a shortcut to open the menu and then we can just start typing some letters like ‘calc’ and the calculator appears, so what is the problem?
+But all operating system come with a shortcut to open the menu and then we can just start typing some letters like ‘calc’ and the calculator appears, so what is the problem?
 
-Generally, opening a new app requires some additional processing and memory besides a lot of clicks - _argh_ - that’s why you should consider doing all your operations in one place and fast by one key shortcut.
+Generally, opening a new app requires some additional processing and memory besides a lot of clicks and that’s why I think you should consider doing some of your operations in one place and fast by one key shortcut.
 
 ## Productivity
-We will approach a tool to help to be productive but have in mind that this topic - productivity - is broader than that. Maybe sometime we could discuss more about it.
+We will approach a tool to help be productive, but have in mind that this topic - productivity - is broader than that. Maybe sometime we could discuss more about it.
 
 But I can say that such tool could save you a lot of time during the day, for example, when you need to translate something, do a simple calc, generate a hash for some text, count words and letters in a text, open projects in your IDE, consult passwords in your wallet or like I will show in the KV (a key value plugin for Ulaucher) session, find anything that you decided to save in the past.
 
@@ -24,10 +24,10 @@ But I can say that such tool could save you a lot of time during the day, for ex
 
 It has a lot of plugins that you can easily install and start using, some of them require some additional configurations but this is no big deal.
 
-There are some alternatives ([here](https://alternativeto.net/software/ulauncher/)) for Windows ([Wox](http://www.wox.one/)) that I use in my personal computer, for MacOS ([Alfred](https://www.alfredapp.com/)) and another that I like very much for Linux ([Albert](https://albertlauncher.github.io/)). Albert was my favorite for a long time but indexing processing consumes a lot of CPU, so I found ULaucher, that there is no problem with it.
+There are some alternatives ([here](https://alternativeto.net/software/ulauncher/)) for Windows ([Wox](http://www.wox.one/)), for MacOS ([Alfred](https://www.alfredapp.com/)) and another that I like very much for Linux ([Albert](https://albertlauncher.github.io/)). Albert was my favorite for a long time but the indexing processing consumes a lot of CPU.
 
 ### How to Install 
-For ubuntu users the following steps could be executed:
+On the github page of the project has instructions, but for ubuntu users the following steps could be executed:
 
 1. Installing required libs (if not installed):
 ```
@@ -48,14 +48,14 @@ gdebi ~/Downloads/ulauncher_5.10.0_all.deb
 4. Start ULauncher from the menu.
 
 ## KV for Ulaucher
-When I moved from Albert to ULauncher, a plugin that I missed was KV, the one that, afterwards, was moved to Snippets plugin, where we can’t use the launcher to insert a key value pair, should open another screen to do that.
+When I moved from Albert to ULauncher, a plugin that I missed was KV, the one that, afterwards, was moved to Snippets plugin, where we can’t use the launcher box to insert a key value pair, and we should open another screen to do that.
 
-With it you could easily add a key-value in a database and find values filtering by key, so imagine that you have a document that you frequently consult during your analysis and this document is on google drive, so you could type some commands in ULauncher with KV like ‘kv set diagramforanalysis https://drive.com/linktodiagram’ and than on the next time you just open the ULauncher and type ‘kv diagram’ to show all your keys with the string diagram, go to the item that you want on the ULauncher list and ENTER to copy the value, the link in this case, to open in the browser.
+With it you could easily add a key-value in a database and find values filtering by key, so imagine that you have a document that you frequently consult during your analysis and this document is on google drive, so you could type some commands in ULauncher with KV like ```kv set diagramforanalysis https://drive.com/linktodiagram``` and than on the next time you just open the ULauncher and type ```kv diagram``` to show all your keys with the string diagram, go to the item that you want on the ULauncher list and ENTER to copy the value, the link in this case, to open in the browser.
 
 I used it so often that I decided to implement it to ULaucher, and after some time some improvements were released with help from the community. It is written in Python and uses SQLite to persist your data in a file on the home folder with name .kv.db.
 
 ### How to Install
-Open ULauncher and the configuration window, go to extensions, scroll until the end where the option Add extension are, after click on Add extension a new popup will be open and you just need to put the path of github project:
+Open ULauncher and the configuration window, go to extensions, scroll until the end where is the option Add extension, after click on Add extension a new popup will be open and you just need to put the path of github project:
 ```
 https://github.com/laercioskt/ulauncher-kv
 ```
